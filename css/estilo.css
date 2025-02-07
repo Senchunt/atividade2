@@ -1,0 +1,111 @@
+/*cabeçalho*/
+header {
+    background-color: rgb(25, 80, 29);
+}
+
+header img {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+#navbarSupportedContent a{
+    color: rgb(209, 196, 9);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*Conteudo principal*/
+
+main {
+    min-height: 500px;
+    background-color: rgb(209, 196, 9);
+}
+
+/*banner*/
+#section-banners img {
+    height: 500px;
+    border-radius: 20px;
+}
+
+/*Produtos vendidos*/
+#section-vendidos {
+    text-align: center;
+}
+
+#section-vendidos h2 {
+    font-weight: bold;
+    padding: 20px;
+}
+
+#section-vendidos img {
+    height: 222px;
+    border-radius: 10px;
+}
+
+#section-vendidos .card {
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#section-vendidos .preco{
+    color: rgb(247, 191, 10);
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+
+/*Rodapé*/
+
+footer{
+    text-align: center;
+    background-color: rgb(25, 80, 29);
+}
+
+footer p {
+    font-weight: bold;
+    padding: 10px;
+    color: rgb(209, 196, 9);
+}
+
+
+/*Botão Voltar topo*/
+
+#voltar-topo {
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+    color: rgb(4, 37, 4);
+}
+
+/* página de login  */
+
+
+#section-login h1 {
+    text-align: center;
+}
+
+#section-login input {
+    width: 100%;
+}
+
+#section-login img {
+    padding: 6px;
+    width: 100px;
+    border-radius: 20px; 
+    margin-left: 635px;
+}
+
+/* Formulário de cadastro*/
+
+#section-cadastro {
+    padding: 5px;
+    text-align: center;
+}
+
+#form-cadastrar {
+    padding: 50px;
+    display: none;
+}
